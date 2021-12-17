@@ -161,16 +161,6 @@ def process_data():
 
     return [deaths, active_cases, l_infectionr, n_infectionr]
 
-
-def schedule_covid_updates(update_interval, update_name):
-    """
-    This function schedules for new articles to be searched for
-    Parameters:
-    update_interval, update_name
-    """
-    s.enterabs(time.time() + update_interval, 1,
-    covid_news_handling.news_API_request(),(update_name))
-
 TALLY = 0
 ALARMS =[]
 
