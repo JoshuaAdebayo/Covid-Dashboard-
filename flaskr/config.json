@@ -1,0 +1,23 @@
+
+{
+    "Main details": {
+         "Title": "Covid Dashboard",
+         "Location": "Sheffield",
+         "Location_type": "ltla",
+         "Nation": "England",
+         "Nation_type": "nation",
+         "Key": "a067b5a85a164a3eaa93431f141c6810",
+         "Template_path": "index.html",
+         "Image": "favicon.ico",
+		 "Language": "en",
+		 "Sort": "publishedAt",
+		 "Url": "https://newsapi.org/v2/everything",
+		 "terms":"Covid COVID-19 coronavirus"
+         },
+    "Logging" : {
+        "format" : "{asctime} {levelname:<8} {message}",
+        "file" : "logging/logging.log",
+		"level" : 10,
+        "filemode": "w"
+        }
+}
