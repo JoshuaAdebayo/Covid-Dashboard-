@@ -2,8 +2,9 @@
 In this module I import json and requests and right a function,
 news_API_request() which outputs a list of dictionaries related to covid-19
 """
-
+import time 
 import json
+import sched 
 import logging
 import requests
 
@@ -33,4 +34,13 @@ def news_API_request(covid_terms= config["Main details"]["terms"]):
     except requests.exceptions.ConnectionError as error:
         logging.error("Unable to retreive news articles, %s" ,error)
     return articles['articles']
+
+def schedule_news_updates(update_interval, update_name):
+    """
+    This function schedules for new articles to be searched for
+    Parameters:
+    update_interval, update_name
+    """
+    s = sched.scheduler(time.time, time.sleep)
+    s.enterabs(time.time() + update_interval, 1,news_API_request(),(update_name))
     
