@@ -8,15 +8,15 @@ There are 2 ways this can be done:
 1. Clone the git repository and navigate to the directory as shown below via Git Bash
 
 ```bash
-git clone https://github.com/JoshuaAdebayo/Covid-Dashboard
+git clone https://github.com/JoshuaAdebayo/Covid-Dashboard-/
 ```
 
-2. Download directly from [https://github.com/JoshuaAdebayo/Covid-Dashboard]
+2. Download directly from [https://github.com/JoshuaAdebayo/Covid-Dashboard-/]
 3. (https://github.com/JoshuaAdebayo/Covid-Dashboard)
 
 ## 2. Installation
 
-Install the package dependencies using the "required_docs.txt" file as shown below.
+Install the package dependencies using the "requirements.txt" file as shown below.
 This can be done into a virtual environment but is not required:
 
 1. Virtual Environment
