@@ -12,7 +12,7 @@ git clone https://github.com/JoshuaAdebayo/Covid-Dashboard-/
 ```
 
 2. Download directly from [https://github.com/JoshuaAdebayo/Covid-Dashboard-/]
-3. (https://github.com/JoshuaAdebayo/Covid-Dashboard)
+3. (https://github.com/JoshuaAdebayo/Covid-Dashboard-/)
 
 ## 2. Installation
 
