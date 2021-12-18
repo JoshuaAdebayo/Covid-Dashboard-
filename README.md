@@ -46,12 +46,12 @@ To check if it is or has already been activated, (venv) should appear before the
 
 Windows:
 ```bash
-.\venv\Scripts\activate
+.\myenv\Scripts\activate
 ```
 
 Mac/Linux:
 ```bash
-./venv/bin/activate
+./myenv/bin/activate
 ```
 
 ## 5. Running the flask application
