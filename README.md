@@ -1,4 +1,4 @@
-# Covid-Dashboard-
+# Covid-Dashboard
 In this repository, I have made a dashboard that presents covid related data upon a dashboard
 
 ## 1. Download
