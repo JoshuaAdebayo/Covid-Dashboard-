@@ -1,5 +1,5 @@
 # Covid-Dashboard
-In this repository, I have made a dashboard that presents covid related data upon a dashboard
+In this repository, I have made a dashboard that presents new covid related data on an online dashboard. Additionally, you can schedule updates
 
 ## 1. Download
 
